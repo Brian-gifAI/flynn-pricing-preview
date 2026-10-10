@@ -84,6 +84,7 @@
   /* Pilot */
   .pilot{background:var(--panel);border-radius:28px;padding:64px;color:#fff;display:grid;grid-template-columns:.85fr 1.15fr;gap:56px}
   .pilot .eyebrow{color:var(--coral)}.pilot .eyebrow::before{background:var(--coral)}
+  .pilot-h{font-family:Manrope,Arial,sans-serif;font-weight:800;font-size:51px;line-height:1.08;letter-spacing:-.03em;color:#fff;margin:0 0 20px}.pilot-h span{color:var(--coral)}.pilot-sub{font-family:Roboto,Arial,sans-serif;font-size:20px;line-height:1.5;color:rgba(255,255,255,.75);margin:0 0 30px}
   .pilot .lead{font-family:Manrope,Arial,sans-serif;font-weight:800;font-size:34px;line-height:1.18;letter-spacing:-.025em;color:#fff;margin:18px 0 30px}
   .plist{display:grid;grid-template-columns:1fr 1fr;gap:18px}
   .pitem{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:24px}
@@ -124,7 +125,7 @@
     .panel h3{font-size:22px}
     .tailored{flex-direction:column;align-items:flex-start}
     .pilot{padding:36px 22px;border-radius:22px}
-    .pilot .lead{font-size:26px}
+    .pilot .lead{font-size:26px}.pilot-h{font-size:38px}.pilot-sub{font-size:17px}
     .btn{width:100%;justify-content:center}
     .btn-sm{width:auto}
     .foot{grid-template-columns:1fr}
@@ -217,8 +218,8 @@
     <div class="wrap">
       <div class="pilot">
         <div>
-          <div class="eyebrow">Start with a 3-week free pilot</div>
-          <p class="lead">See Flynn deliver real results on your own Xero files before you pay anything.</p>
+          <h2 class="pilot-h">Start with a <span style="white-space:nowrap">3&#8209;week free</span> pilot.</h2>
+          <p class="pilot-sub">See Flynn deliver real results on your own Xero files before you pay anything.</p>
           <a class="btn" href="https://www.agenticai.nz/demo">Book a demo <span aria-hidden="true">→</span></a>
         </div>
         <div class="plist">
